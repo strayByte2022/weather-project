@@ -16,7 +16,7 @@ locations = [
 url = "https://history.openweathermap.org/data/2.5/history/city"
 
 # Directory to save CSV files
-output_dir = "Extracted_Data"
+output_dir = "Data"
 os.makedirs(output_dir, exist_ok=True)
 
 def generate_time_ranges(start_date, end_date, days_per_batch=5):
